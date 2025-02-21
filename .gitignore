@@ -1,0 +1,86 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environment
+youtube-summarizer-env/
+venv/
+env/
+ENV/
+.env/
+.venv/
+
+# IDE-specific files
+.vscode/
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+# Distribution / packaging
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# Logs and databases
+*.log
+*.sql
+*.sqlite
+
+# Downloaded files (e.g., audio files)
+*.mp4
+*.mp3
+*.wav
+
+# API keys and secrets
+.env
+secrets.yml
+config.yml
+*.key
+*.pem
+
+# macOS specific
+.DS_Store
+
+# Windows specific
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# PyCharm specific
+.idea/
+*.iml
+
+# VS Code specific
+.vscode/
+*.code-workspace
+
+# pytest specific
+.pytest_cache/
+
+# Other
+*.bak
+*.tmp
+*.swp
+*.swo
+*~
