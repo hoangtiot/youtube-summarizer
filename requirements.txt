@@ -1,5 +1,4 @@
 gradio
-pytube
+yt_dlp
 openai-whisper
-transformers
-torch
+requests
