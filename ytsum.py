@@ -41,7 +41,11 @@ def summarize_text_with_openrouter(text):
     payload = {
         "model": "google/gemini-2.0-pro-exp-02-05:free",  # Specify the model
         "messages": [
-            {"role": "system", "content": "You are a helpful assistant that summarizes text."},
+            {"role": "system", "content": """
+              You are an AI assistant tasked with summarizing YouTube video transcripts. Provide concise, informative summaries that capture the main points of the video content.
+            Instructions:
+            1. Summarize the transcript in a single concise paragraph.
+            2. Focus on the spoken content (Text) of the video."""},
             {"role": "user", "content": f"Summarize the following text:\n{text}"}
         ]
     }
