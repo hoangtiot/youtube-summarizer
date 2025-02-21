@@ -1,6 +1,7 @@
 # YouTube Video Summarizer
 
 This is a Python application that summarizes YouTube videos using AI. It downloads the audio from a YouTube video, transcribes it to text, and generates a summary using a pre-trained NLP model.
+![Screenshot](screenshot.png)
 
 ## Features
 
