@@ -37,7 +37,7 @@ def generate_text(prompt):
 
     # Headers for the API request
     headers = {
-        "Authorization": f"Bearer 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",  # Replace with your OpenRouter API key
+        "Authorization": f"Bearer OPENROUTER_API_KEY",  # Replace with your OpenRouter API key
         "Content-Type": "application/json"
     }
 

@@ -23,8 +23,8 @@ This is a Python application that summarizes YouTube videos using AI. It downloa
 3. Update the OpenRouter Api key with your own key
 4. Run:
    ```bash
-   pip install virtualenv 
-   virtualenv my_env
-   .\my_env\Scripts\activate
+   pip install virtualenv
+   python -m venv myenv
+   myenv\Scripts\activate
    python ytsum.py
    ```
